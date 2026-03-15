@@ -1,19 +1,19 @@
 import Link from "next/link";
 
 export default function Hero() {
-	return (
-		<section className="bg-hero bg-cover bg-center h-150 flex justify-center items-center">
-			<div className="flex flex-col justify-center items-center max-w-2xl">
-				<h1 className="text-3xl lg:text-4xl text-white uppercase font-black text-center">
-					Find a Meeti or Create a Community to share what you love
-				</h1>
-				<Link
-					className="bg-orange-500 hover:bg-orange-600 transition-colors text-xl text-white py-3 px-10 mt-5 font-bold"
-					href="/auth/register"
-				>
-					Get an account
-				</Link>
-			</div>
-		</section>
-	);
+  return (
+    <section className="bg-hero flex h-150 items-center justify-center bg-cover bg-center">
+      <div className="flex max-w-2xl flex-col items-center justify-center">
+        <h1 className="text-center text-3xl font-black text-white uppercase lg:text-4xl">
+          Find a Meeti or Create a Community to share what you love
+        </h1>
+        <Link
+          className="mt-5 bg-orange-500 px-10 py-3 text-xl font-bold text-white transition-colors hover:bg-orange-600"
+          href="/auth/register"
+        >
+          Get an account
+        </Link>
+      </div>
+    </section>
+  );
 }

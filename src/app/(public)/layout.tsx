@@ -1,14 +1,14 @@
 import Header from "@/shared/components/ui/Header";
 
 export default function Layout({
-	children,
+  children,
 }: Readonly<{
-	children: React.ReactNode;
+  children: React.ReactNode;
 }>) {
-	return (
-		<>
-			<Header />
-			{children}
-		</>
-	);
+  return (
+    <>
+      <Header />
+      {children}
+    </>
+  );
 }

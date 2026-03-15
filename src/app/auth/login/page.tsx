@@ -3,13 +3,13 @@ import { generatePageTitle } from "@/shared/lib/metadata";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-	title: generatePageTitle("Login"),
+  title: generatePageTitle("Login"),
 };
 
 export default function LoginPage() {
-	return (
-		<>
-			<Heading level={2}>Login</Heading>
-		</>
-	);
+  return (
+    <>
+      <Heading level={2}>Login</Heading>
+    </>
+  );
 }

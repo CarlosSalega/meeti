@@ -1,8 +1,8 @@
 {
-	"css.lint.unknownAtRules": "ignore",
-	"scss.lint.unknownAtRules": "ignore",
-	"less.lint.unknownAtRules": "ignore",
-	"files.associations": {
-		"globals.css": "tailwindcss"
-	}
+  "css.lint.unknownAtRules": "ignore",
+  "scss.lint.unknownAtRules": "ignore",
+  "less.lint.unknownAtRules": "ignore",
+  "files.associations": {
+    "globals.css": "tailwindcss"
+  }
 }
