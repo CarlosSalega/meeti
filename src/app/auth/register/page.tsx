@@ -1,5 +1,5 @@
-import { generatePageTitle } from "@/shared/lib/metadata";
 import { Metadata } from "next";
+import { generatePageTitle } from "@/shared/lib/metadata";
 
 export const metadata: Metadata = {
   title: generatePageTitle("Register"),

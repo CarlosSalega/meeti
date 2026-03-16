@@ -1,6 +1,6 @@
+import { Metadata } from "next";
 import Heading from "@/shared/components/typography/Heading";
 import { generatePageTitle } from "@/shared/lib/metadata";
-import { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: generatePageTitle("Login"),
