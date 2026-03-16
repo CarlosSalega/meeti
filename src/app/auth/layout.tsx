@@ -13,7 +13,7 @@ export default function AuthLayout({
           <Logo />
         </Link>
       </div>
-      <main className="mx-auto max-w-2xl px-5 py-16">{children}</main>
+      <main className="mx-auto max-w-md px-5 py-16">{children}</main>
     </>
   );
 }
