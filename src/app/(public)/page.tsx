@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: generatePageTitle("Home"),
 };
 
-export default function Page() {
+export default function PublicPage() {
   return (
     <>
       <Hero />
