@@ -5,7 +5,7 @@ type FormProps = FormHTMLAttributes<HTMLFormElement>;
 
 export function Form({ children, className, ...props }: FormProps) {
   return (
-    <form className={cn("mt-10 space-y-3", className)} {...props}>
+    <form className={cn("mt-10", className)} {...props}>
       {children}
     </form>
   );
