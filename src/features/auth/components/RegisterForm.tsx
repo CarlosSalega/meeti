@@ -22,6 +22,9 @@ export function RegisterForm() {
 
   return (
     <Form onSubmit={handleSubmit(onSubmit)}>
+      <FormLabel htmlFor="name">Name</FormLabel>
+      <FormInput type="text" id="name" placeholder="enter your ename" {...register("name")} />
+      <FormError>{errors.name?.message}</FormError>
       <FormLabel htmlFor="email">Email</FormLabel>
       <FormInput type="email" id="email" placeholder="enter your email" {...register("email")} />
       <FormError>{errors.email?.message}</FormError>
